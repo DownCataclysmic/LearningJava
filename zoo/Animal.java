@@ -13,6 +13,10 @@ public class Animal {
 		return this.noOfLegs;
 	}
 	
+	public void makeNoise() {
+		System.out.println("Bloop");
+	}
+	
 	public void setNoOfLegs(int noOfLegs) {
 		this.noOfLegs = noOfLegs;
 	}
@@ -31,5 +35,29 @@ public class Animal {
 	
 	public void setHasScales(boolean hasScales) {
 		this.hasScales = hasScales;
+	}
+	
+	public boolean isHasFur() {
+		return this.hasFur;
+	}
+	
+	public void setHasFur(boolean hasFur) {
+		this.hasFur = hasFur;
+	}
+	
+	public boolean isColdBlooded() {
+		return this.coldBlooded;
+	}
+	
+	public void setColdBlooded(boolean coldBlooded) {
+		this.coldBlooded = coldBlooded;
+	}
+	
+	public String theirDiet() {
+		return this.diet;
+	}
+	
+	public void setTheirDiet(String diet) {
+		this.diet = diet;
 	}
 }
