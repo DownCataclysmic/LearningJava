@@ -20,7 +20,7 @@ public class Garage {
 			int vehicleAge = v.getVehicleAge();
 			if (vehicleAge < 25)
 				this.Garage.remove(v);
-				System.out.println("This vehicle has is way too old, time to put them down.");
+				System.out.println("This vehicle is way too old, time to put them down.");
 		}
 	}
 	
